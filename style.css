@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("/loginform/pic.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+form{
+  width: 30%;
+  padding: 80px 20px 10px 100px;
+  margin : auto;
+  height: 600px;
+  margin-top: 70px;
+  border-radius: 5px;
+  background : linear-gradient(to bottom right, #fff,#cff);
+}
+
+input[type="text"], input[type="password"]{
+  width: 210px;
+  padding: 8px 12px;
+  outline: none;
+  border: none;
+  border-bottom: solid purple 1.5px;
+  border-radius: 3px;
+  background: linear-gradient(110deg, #fff 30% ,#ccf 70%);
+}
+input[type="text"]{
+margin-top: 70px;
+}
+
+input[type="checkbox"]{
+margin-top: 21px;
+width: 17px;
+height: 17px;
+vertical-align: -2px;;
+ }
+
+label{
+  font-size: 1.2em;
+ }
+
+input[type="submit"]{
+  margin-top: 30px;
+  width: 74%;
+  padding: 10px 12px;
+  background-color: rgb(66, 155, 245);
+  font-weight: bold;
+  color: white;
+  font-size: 1.1em;
+  border : none;
+  cursor: pointer;
+ }
+
+input[type="submit"]:hover{
+background-color: rgb(66, 93, 245);
+}
+
+a,p{
+  text-decoration: none;
+  text-align: right;
+}
